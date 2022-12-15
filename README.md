@@ -86,3 +86,14 @@ If you use locuscompare, please cite the following paper: https://www.nature.com
 
 Boxiang Liu, Michael J. Gloudemans, Abhiram S. Rao, Erik Ingelsson & Stephen B. Montgomery (2019) Abundant associations with gene expression complicate GWAS follow-up, *Nature Genetics*
 
+# Usage of LocusCompare.py
+
+## Step 1: Create a new text called “requirements” and copy lines 91-96 into the text
+matplotlib==3.6.2
+numpy==1.23.5
+pandas==1.5.2
+PyMySQL==1.0.2
+scipy==1.9.3
+seaborn==0.12.1
+
+## Step 2: pip install -r requirements.txt
